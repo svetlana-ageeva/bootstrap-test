@@ -1,2 +1,2 @@
-.header__inner{background-color:purple;border-radius:5px}.header__nav{margin-bottom:10px}.header a,.header span{color:#fff}.header li:hover a{color:purple}
+.carousel,.header__inner{border:2px solid purple;border-radius:5px}.carousel{margin-bottom:10px}.carousel img{display:block;margin:0 auto;-o-object-fit:cover;object-fit:cover;z-index:-1}.header__inner{background-color:purple}.header__nav{margin-bottom:10px}.header a,.header span{color:#fff}.header li:hover a{color:purple}
 /*# sourceMappingURL=style.min.css.map */

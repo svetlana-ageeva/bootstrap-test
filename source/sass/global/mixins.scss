@@ -1,0 +1,4 @@
+@mixin accent-border {
+  border: 2px solid $accent-main;
+  border-radius: 5px;
+}

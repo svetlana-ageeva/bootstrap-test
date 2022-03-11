@@ -1,0 +1,17 @@
+.header__inner {
+  @include accent-border;
+  background-color: $accent-main;
+}
+
+.header__nav {
+  margin-bottom: 10px;
+}
+
+.header a,
+.header span {
+  color: $basic-white;
+}
+
+.header li:hover a {
+    color: $accent-main;
+}

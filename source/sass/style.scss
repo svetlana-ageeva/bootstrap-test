@@ -1,7 +1,9 @@
 //global
 @import "global/variables.scss";
+@import "global/mixins.scss";
 
 //blocks
-@import "blocks/page-header.scss";
+@import "blocks/carousel.scss";
+@import "blocks/header.scss";
 
 
