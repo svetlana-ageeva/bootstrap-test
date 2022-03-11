@@ -1,0 +1,17 @@
+.header__inner {
+  background-color: $accent-main;
+  border-radius: 5px;
+}
+
+.header__nav {
+  margin-bottom: 10px;
+}
+
+.header a,
+.header span {
+  color: $basic-white;
+}
+
+.header li:hover a {
+    color: $accent-main;
+}
