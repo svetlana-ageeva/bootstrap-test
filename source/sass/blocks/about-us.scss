@@ -12,10 +12,15 @@
 .about-us__tab li {
   border-radius: 5px;
   min-width: 15%;
-  background-color: $not-active;
   margin-right: 10px;
+}
 
-  &.active  {
-    background-color: $accent-main;
-  }
+.about-us__tab>ul>li>a {
+  color: $accent-main;
+}
+
+.about-us__tab>ul>li.active>a,
+.about-us__tab>ul>li.active>a:focus,
+.about-us__tab>ul>li.active>a:hover {
+  background-color: $accent-main;
 }
