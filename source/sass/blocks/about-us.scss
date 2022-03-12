@@ -1,0 +1,20 @@
+.about-us {
+  margin-bottom: 20px;
+}
+
+.about-us__banner img {
+  @include accent-border;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.about-us__tab li {
+  border-radius: 5px;
+  min-width: 15%;
+  background-color: $not-active;
+  margin-right: 10px;
+
+  &.active  {
+    background-color: $accent-main;
+  }
+}

@@ -1,0 +1,9 @@
+.features .panel {
+  @include accent-border;
+}
+
+.features .panel-heading {
+  background-color: $accent-main;
+  border: none;
+  background-image: none;
+}
