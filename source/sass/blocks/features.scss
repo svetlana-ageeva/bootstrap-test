@@ -1,9 +1,20 @@
+.features__item {
+  margin-bottom: 10px;
+}
+
 .features .panel {
   @include accent-border;
+  min-height: 100%;
 }
 
 .features .panel-heading {
   background-color: $accent-main;
   border: none;
   background-image: none;
+}
+
+.features .row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10px;
 }
