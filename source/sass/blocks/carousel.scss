@@ -1,0 +1,12 @@
+.carousel {
+  @include accent-border;
+  margin-bottom: 10px;
+}
+
+.carousel img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}

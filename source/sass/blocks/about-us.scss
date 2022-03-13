@@ -1,0 +1,42 @@
+.about-us {
+  height: min-content;
+  margin-bottom: 20px;
+}
+.about-us .row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us__banner img {
+  @include accent-border;
+  min-width: 100%;
+  object-fit: cover;
+}
+.about-us__tab {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+
+.about-us__tab li {
+  border-radius: 5px;
+  min-width: 15%;
+  background-color: $not-active;
+  margin-right: 10px;
+}
+
+.about-us__tab>ul>li {
+  & a {
+    color: $basic-white;
+  }
+
+  &:hover a {
+    color: $accent-main;
+  }
+}
+
+.about-us__tab>ul>li.active>a,
+.about-us__tab>ul>li.active>a:focus,
+.about-us__tab>ul>li.active>a:hover {
+  background-color: $accent-main;
+}
